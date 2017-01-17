@@ -1,0 +1,172 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+.navbar-custom {
+    box-shadow: none;
+    background: none;
+}
+
+.navbar-custom a {
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.navbar-custom-about {
+    background: #F1F1F2;
+    height: 65px;
+}
+
+.navbar-custom-about a {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.navbar-custom-about .logo {
+    padding-top: 9px;
+    padding-left: 33px;
+}
+
+.navbar-custom-about input {
+    height: 42px;
+    border-radius: 1px;
+    margin-top: 9px;
+    font-size: 17px;
+}
+
+.navbar-custom li {
+    padding-top: 10px;
+}
+
+.navbar-custom-second {
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-custom-second .navbar-nav {
+    margin-left: 8.3333333%;
+}
+
+.navbar-custom-second a {
+    padding-bottom: 17px !important;
+    padding-top: 8px !important;
+    width: 100px;
+    color: #3369E8;
+    text-align: center;
+}
+
+.activeSection {
+    border-bottom: 3px solid #3369E8;
+}
+
+.google-type-header {
+    margin-bottom: 12px !important;
+}
+
+.google-type-header h1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 30%;
+}
+
+.google-type-header h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.google-type-input input {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08) !important;
+    border: none !important;
+    border-radius: 2px !important;
+    width: 85% !important;
+    margin-left: 7.5% !important;
+}
+
+.j-text {
+    color: #3369E8 !important;
+}
+
+.o-text {
+    color: #D50F25;
+}
+
+.s-text {
+    color: #EEB211;
+}
+
+.h-text {
+    color: #009925;
+}
+
+.experience-section h4 a {
+    color: #1a0dab
+}
+
+.experience-section h5 {
+    margin-top: -6px;
+    color: #009925;
+}
+
+.top-line {
+    margin-top: -6px;
+    color: #888;
+}
+
+.non-link {
+    margin-top: 22px;
+    color: #1a0dab;
+}
+
+.my-info {
+    margin-top: 22px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+}
+
+.my-info .btn-default {
+    border-radius: 2px;
+    margin-top: 22px;
+}
+
+.my-info h5 {
+    margin: 3px 0px;
+}
+
+.newSkill {
+    margin-top: 32px;
+}
+
+.newSkill h4 {
+    color: #1a0dab;
+    margin-top: 0px;
+}
+
+.email-form {
+    border: 1px solid #eee;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.navbar-list a {
+    font-size: 18px;
+    margin-top: 9px;
+    margin-right: 17px;
+    color: #3369E8 !important;
+}
+
+.name-list {
+    font-size: 18px;
+    margin-top: 17px;
+    margin-right: 17px;
+}
+
+.prof-image {
+    height: 137px;
+}
