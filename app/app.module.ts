@@ -4,6 +4,8 @@ import {RouterModule} from '@angular/router';
 
 import { AppComponent }  from './app.component';
 import {HomeComponent} from './home/home.component';
+import {SearchResultsComponent} from './search-results/search-results.component';
+import {NavbarComponent} from './search-results/navbar/navbar.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -14,7 +16,9 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   declarations: [ 
   	AppComponent,
-    HomeComponent
+    HomeComponent,
+    SearchResultsComponent,
+    NavbarComponent
   ],
   bootstrap:    [ AppComponent ]
 })

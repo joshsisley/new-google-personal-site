@@ -210,3 +210,20 @@ h1 {
     font-weight: bold;
     font-size:13px;
 }
+
+.search-navbar {
+    background: #fafafa;
+    color: #666;
+    font-size: small;
+    border-bottom: 1px solid #ebebeb;
+    margin-top: -21px;
+    outline-width: 0;
+    outline: none;
+    position: relative;
+    z-index: 102;
+}
+
+.brand-logo {
+    font-size: 30px;
+} 
+
