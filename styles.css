@@ -221,9 +221,65 @@ h1 {
     outline: none;
     position: relative;
     z-index: 102;
+    box-shadow: none;
 }
 
 .brand-logo {
     font-size: 30px;
+    letter-spacing: -5px;
+    font-size: 38px !important;
+    margin-top: 28px;
+    margin-left: 14px;
 } 
+
+.tabs {
+    height: 80px !important;
+    padding-left: 12% !important;
+}
+
+.tab {
+    margin-top: 32px !important;
+}
+
+.tab a {
+    color: black !important;
+    font-size: small !important;
+}
+
+.material-input {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08) !important; 
+    border: none !important;
+    border-radius: 2px !important;
+    margin-left: 5% !important;
+    padding-left: 1% !important;
+    font-size: 16px !important;
+    width: 40% !important;
+    color: #222 !important;
+    position: absolute;
+    top: 39px;
+    left: 7%;
+    height: 44px !important;
+}
+
+@media (max-width: 414px) {
+    .google-type-input input {
+        width: 100% !important;
+        margin-left: -6px !important;
+        padding-left: 4% !important;
+    }
+
+    .google-type-header h1 {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .material-input {
+        left: 11%;
+        width: 48% !important;
+    }
+    .tabs {
+        padding-left: 16% !important;
+    }
+}
 
