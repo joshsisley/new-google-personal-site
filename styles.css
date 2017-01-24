@@ -242,8 +242,9 @@ h1 {
 }
 
 .tab a {
-    color: black !important;
+    color: #777 !important;
     font-size: small !important;
+    text-transform: none;
 }
 
 .material-input {
@@ -253,12 +254,17 @@ h1 {
     margin-left: 5% !important;
     padding-left: 1% !important;
     font-size: 16px !important;
-    width: 40% !important;
+    width: 43% !important;
     color: #222 !important;
     position: absolute;
     top: 39px;
     left: 7%;
     height: 44px !important;
+}
+
+.tab-section {
+    margin-left: 13%;
+    width: 43%;
 }
 
 @media (max-width: 414px) {
