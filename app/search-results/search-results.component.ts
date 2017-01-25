@@ -5,7 +5,8 @@ import { Component,OnInit } from '@angular/core';
   templateUrl: 'app/search-results/search-results.component.html'
 })
 export class SearchResultsComponent implements OnInit { 
+	selectedTab:string;
 	ngOnInit() {
-		
+		this.selectedTab = "experience";
 	}
 }

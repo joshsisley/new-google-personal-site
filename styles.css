@@ -114,19 +114,31 @@ h1 {
     color: #1a0dab
 }
 
-.experience-section h5 {
-    margin-top: -6px;
-    color: #009925;
-}
-
 .top-line {
     margin-top: -6px;
     color: #888;
 }
 
+.new-result {
+    margin-top: 30px;
+}
+
 .non-link {
     margin-top: 22px;
     color: #1a0dab;
+    font-size: 18px;
+}
+
+.result-second-line {
+    font-size: 14px;
+    margin-top: -9px;
+    color: #006621;
+}
+
+.result-info {
+    color: #545454;
+    font-size: 14px;
+    margin-top: -10px;
 }
 
 .my-info {
@@ -217,6 +229,7 @@ h1 {
     font-size: small;
     border-bottom: 1px solid #ebebeb;
     margin-top: -21px;
+    margin-bottom: 35px;
     outline-width: 0;
     outline: none;
     position: relative;
@@ -241,10 +254,15 @@ h1 {
     margin-top: 32px !important;
 }
 
+.tab a.selected {
+    border-bottom: 3px solid #4285f4;
+    color: #4285f4 !important;
+}
+
 .tab a {
     color: #777 !important;
     font-size: small !important;
-    text-transform: none;
+    text-transform: none !important;
 }
 
 .material-input {
@@ -264,7 +282,49 @@ h1 {
 
 .tab-section {
     margin-left: 13%;
-    width: 43%;
+    width: 41%;
+}
+
+.card-personal {
+    width: 35%;
+    left: 60%;
+    top: 19%;
+    position: absolute;
+}
+
+.card-action {
+    border-bottom: 1px solid #eee;
+    padding: 16px 0 0 20px !important;
+}
+
+.card-action .row {
+    margin-bottom: 5px !important;
+}
+
+.card-action img {
+    width: 45px;
+    height: 45px;
+}
+
+.card-name {
+    font-size: medium;
+    margin-top: 4px;
+    margin-left: -8px;
+}
+
+.card-job-title {
+    font-size: small;
+    color: #878787 !important;
+    margin-top: -19px;
+    margin-left: -8px;
+}
+
+.btn-contact {
+    font-size: 11px;
+    color: #444;
+    background: #f5f5f5;
+    padding: 10px 14px 10px 14px;
+    border: 1px solid #dcdcdc;
 }
 
 @media (max-width: 414px) {
