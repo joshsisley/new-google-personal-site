@@ -37,7 +37,7 @@
 		<philanthropy-tab *ngIf="selectedTab == 'philanthropy'"></philanthropy-tab>
 		<contact-tab *ngIf="selectedTab == 'contact'"></contact-tab>
 	</div>
-	<div class="card-personal">
+	<div *ngIf="selectedTab == 'experience'" class="card-personal">
 		<div class="card horizontal">
 	      <div class="card-stacked">
 	      	<div class="card-action">
