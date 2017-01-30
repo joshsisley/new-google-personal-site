@@ -135,6 +135,10 @@ h1 {
     color: #006621;
 }
 
+.result-second-line a {
+    color: #006621;
+}
+
 .result-info {
     color: #545454;
     font-size: 14px;
@@ -288,7 +292,7 @@ h1 {
 .card-personal {
     width: 35%;
     left: 60%;
-    top: 19%;
+    top: 152px;
     position: absolute;
 }
 
@@ -370,6 +374,38 @@ h1 {
     float: left;
 }
 
+.my-contact-form {
+    margin-top: 50px;
+}
+
+/* label color */
+   /* label focus color */
+   .input-field input:focus + label {
+     color: #4285f4 !important;
+   }    
+
+   .input-field textarea:focus + label {
+     color: #4285f4 !important;
+   }
+
+   .input-field textarea:focus {
+     border-bottom: 1px solid #4285f4 !important;
+     box-shadow: 0 1px 0 0 #4285f4 !important;
+   }
+
+   .input-field input:focus {
+     border-bottom: 1px solid #4285f4 !important;
+     box-shadow: 0 1px 0 0 #4285f4 !important;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
+
+.btn-submit-msg {
+    background: #4285f4 !important;
+}
+
 @media (max-width: 414px) {
     .google-type-input input {
         width: 100% !important;
@@ -383,6 +419,26 @@ h1 {
 
     .tabs {
         padding-left: 0 !important;
+    }
+
+    .material-input {
+        width: 88% !important;
+        left: 0%;
+        padding-left: 2% !important;
+    }
+
+    .tab-section {
+        margin-left: 7%;
+        width: 86%;
+    }
+
+    .card-personal {
+        width: 86%;
+        margin-left: 7%;
+        position: relative;
+        left: 0;
+        top: 30px;
+        margin-bottom: 30px;
     }
 }
 

@@ -1,4 +1,5 @@
 import { Component,OnInit } from '@angular/core';
+import { Router, ActivatedRoute, Params } from '@angular/router';
 
 @Component({
   selector: 'home',
@@ -7,7 +8,9 @@ import { Component,OnInit } from '@angular/core';
 export class HomeComponent implements OnInit { 
 	index:number;
 
-	constructor() {
+	constructor(
+		private router: Router
+		) {
 		
 	}
 
@@ -24,14 +27,15 @@ export class HomeComponent implements OnInit {
 	    		demo_input.value = type_this.substr(0, index++);
 	    		self.next_letter(index++);
 	    	} else {
-	    		// self.next_page();
+	    		self.next_page();
 	    	}
 	    }, 120);
 	}
 
 	next_page() {
+		let self = this;
 		setTimeout(function() {
-			window.location.href = "aboutMe.html";
+			self.router.navigate(['/search-results'])
 		}, 500)
 	}
 
